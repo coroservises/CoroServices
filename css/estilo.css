@@ -1,0 +1,96 @@
+@font-face{
+	font-family: Marseline;
+	src:url(../fonts/Marseline.ttf);
+}
+body{
+	margin: 0;
+}
+header{
+	background-color: #4682B4;
+	padding: 30px;
+	font-family: "Century Gothic"
+	font-size: 26px;
+}
+h1{
+	font-family: Marseline;
+	color: #696969;
+	font-size: 90px;
+	margin: 30px;
+	text-align: center;
+}
+
+section{
+	background-color: #ADD8E6;
+}
+aside{
+	padding: 30px;
+}
+h2{
+	font-family: Fantastic;
+	color: black;
+	font-size: 40px;
+	text-align: center;
+}
+
+#lista1{
+	list-style-type: none;
+	/*Quitar las viñetas*/
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li a{
+	float: left;
+	display: block;/*Visualización de items*/
+	color: white;
+	padding: 16px 80px;
+	font-size: 20px;
+	text-decoration: none;/*Quita subrayado*/
+
+}
+
+li a:hover{
+	background-color: #000080;
+}
+p{
+	font-family: Fantastic;
+	color: black;
+	font-size: 40px;
+	text-align: center;
+}
+figure{
+	display: inline-block;
+	margin: 30px;
+}
+figure img{
+	vertical-align: top;
+}
+figure caption{
+	text-align: center;
+}
+figcaption{
+	font-size: 27px;
+	font-style: bold;
+}
+.mar{
+	margin-right: 60px;
+	margin-left: 60px;
+}
+#gal{
+	text-align: center;
+	padding: 30px;  
+}
+.zoom:hover{
+	transform: scale(1.5);
+}
+footer{
+	clear: both; /*Limpia float*/
+	background-color: #4682B4;
+	padding: 30px;
+	text-align: center;
+}
+
+.centraricon{
+	padding-right: 60px;
+}
